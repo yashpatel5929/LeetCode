@@ -1,3 +1,4 @@
+import array.PlusOne;
 import stack.DailyTemperature;
 import stack.GenerateParenthesis;
 import stack.ReversePolishNotation;
@@ -17,8 +18,8 @@ public class Main {
        /* GenerateParenthesis gen = new GenerateParenthesis();
         gen.generateParenthesis(3);*/
 
-        DailyTemperature temp = new DailyTemperature();
-        System.out.println(temp.dailyTemperatures(new int[]{73,74,75,71,69,72,76,73}));
+        PlusOne plusOne = new PlusOne();
+        plusOne.main();
     }
 
 
